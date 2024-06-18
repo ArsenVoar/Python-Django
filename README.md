@@ -1,99 +1,104 @@
-README (English)
 Polls Application
-This is a simple Django application for creating and managing polls. Users can view polls, vote on them, and see the results.
+This is a simple Django application for creating and managing polls. Users can view polls, vote on them, and see the results. The code of this application is straightforward, making it easy for any developer to understand and extend. The application uses PostgreSQL as the database.
 
-Installation
-Clone the repository:
+Give a star to the repository, it will help us grow! Thanks!
 
+Demo
+A demo version of the project is available.
+
+
+Mobile App
+Link to the Polls Application mobile app for Android on Google Play: Mobile app
+
+Development
+Getting Started:
+Open a terminal.
+Navigate to the directory where you want to copy the project.
+Clone the project with this command:
 sh
 Copy code
 git clone <repository_url>
-cd <repository_directory>
+Go to the project directory:
+sh
+Copy code
+cd polls-application
 Create and activate a virtual environment:
-
 sh
 Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 Install the required dependencies:
-
 sh
 Copy code
 pip install -r requirements.txt
 Set up the database:
-
 sh
 Copy code
 python manage.py migrate
 Create a superuser:
-
 sh
 Copy code
 python manage.py createsuperuser
-Run the development server:
-
+Start the development server and open http://127.0.0.1:8000/polls/ in your browser:
 sh
 Copy code
 python manage.py runserver
-Open your web browser and go to http://127.0.0.1:8000/polls/.
-
-Usage
-Home Page: Displays a list of recent polls.
-Poll Detail Page: Shows the question and allows voting.
-Poll Results Page: Shows the results of a specific poll.
-Adding a Poll
-Log in to the admin site at http://127.0.0.1:8000/admin/.
-Add a new question under the Polls section.
-Add choices to the question.
+Open Tasks
+Implement user authentication.
+Add more question types (e.g., multiple choice).
+Improve the UI/UX for mobile devices.
 License
 This project is licensed under the MIT License.
 
 README (Russian)
 Приложение Опросов
-Это простое приложение Django для создания и управления опросами. Пользователи могут просматривать опросы, голосовать за них и видеть результаты.
+Это простое приложение Django для создания и управления опросами. Пользователи могут просматривать опросы, голосовать за них и видеть результаты. Код этого приложения прост, что делает его легким для понимания и расширения любым разработчиком. Приложение использует PostgreSQL в качестве базы данных.
 
-Установка
-Клонируйте репозиторий:
+Поставьте звезду репозиторию, это поможет нам развиваться! Спасибо!
 
+Демо
+Демо-версия проекта доступна.
+
+
+Мобильное Приложение
+Ссылка на мобильное приложение для Android на Google Play: Мобильное приложение
+
+Разработка
+Начало Работы:
+Откройте терминал.
+Перейдите в директорию, куда хотите скопировать проект.
+Клонируйте проект с помощью этой команды:
 sh
 Copy code
 git clone <repository_url>
-cd <repository_directory>
+Перейдите в директорию проекта:
+sh
+Copy code
+cd polls-application
 Создайте и активируйте виртуальную среду:
-
 sh
 Copy code
 python -m venv venv
 source venv/bin/activate  # В Windows используйте `venv\Scripts\activate`
 Установите необходимые зависимости:
-
 sh
 Copy code
 pip install -r requirements.txt
 Настройте базу данных:
-
 sh
 Copy code
 python manage.py migrate
 Создайте суперпользователя:
-
 sh
 Copy code
 python manage.py createsuperuser
-Запустите сервер разработки:
-
+Запустите сервер разработки и откройте http://127.0.0.1:8000/polls/ в вашем браузере:
 sh
 Copy code
 python manage.py runserver
-Откройте веб-браузер и перейдите по адресу http://127.0.0.1:8000/polls/.
-
-Использование
-Главная страница: Отображает список последних опросов.
-Страница подробностей опроса: Показывает вопрос и позволяет голосовать.
-Страница результатов опроса: Показывает результаты конкретного опроса.
-Добавление опроса
-Войдите на сайт администратора по адресу http://127.0.0.1:8000/admin/.
-Добавьте новый вопрос в разделе Опросы.
-Добавьте варианты ответов к вопросу.
+Открытые задачи
+Реализовать аутентификацию пользователей.
+Добавить больше типов вопросов (например, множественный выбор).
+Улучшить UI/UX для мобильных устройств.
 Лицензия
 Этот проект лицензирован по лицензии MIT.
