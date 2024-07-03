@@ -30,7 +30,7 @@ python manage.py migrate
 Create a superuser:
 python manage.py createsuperuser
 
-Start the development server and open http://127.0.0.1:8000/polls/ in your browser:
+Start the development server and open http://127.0.0.1:8000/polls/1 in your browser:
 python manage.py runserver
 
 License
@@ -68,7 +68,7 @@ python manage.py migrate
 Создайте суперпользователя:
 python manage.py createsuperuser
 
-Запустите сервер разработки и откройте http://127.0.0.1:8000/polls/ в вашем браузере:
+Запустите сервер разработки и откройте http://127.0.0.1:8000/polls/1 в вашем браузере:
 python manage.py runserver
 
 Лицензия
